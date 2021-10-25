@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title%} post {% endblock title %}
+{% block feedsactive %} active {% endblock feedsactive %}
+
+{% block body %}
+<div class="container my-3">
+<div class="feeds-post">
+        <h2 class="feeds-post-headlines">{{newsPost.headlines}}</h2>
+        <p class="feeds-post-meta">{{newsPost.content}} </p>
+
+
+
+      </div>
+      </div>
+
+{% endblock %}
